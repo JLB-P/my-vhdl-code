@@ -1,6 +1,6 @@
 0.6
-2019.2
-Nov  6 2019
-21:42:20
-/home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.srcs/sim_1/new/mux_2x1_tb.vhd,1616019742,vhdl,,,,mux_2x1_tb,,,,,,,,
-/home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.srcs/sources_1/new/mux_2x1.vhd,1616017387,vhdl,,,,mux_2x1,,,,,,,,
+2019.1
+May 24 2019
+14:51:52
+/home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.srcs/sim_1/new/comparador_4b_tb.vhd,1632942462,vhdl,,,,comparador_4b_tb,,,,,,,,
+/home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.srcs/sources_1/new/comparador_4bit.vhd,1632940430,vhdl,/home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.srcs/sim_1/new/comparador_4b_tb.vhd,,,comparador_4b,,,,,,,,

@@ -1,13 +1,14 @@
-
-*** Running vivado
-    with args -log comparador_4b.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source comparador_4b.tcl
-
-
-****** Vivado v2019.1 (64-bit)
-  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
-  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 29 14:20:11 2021
+# Process ID: 31223
+# Current directory: /home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.runs/synth_1
+# Command line: vivado -log comparador_4b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source comparador_4b.tcl
+# Log file: /home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.runs/synth_1/comparador_4b.vds
+# Journal file: /home/jlb/repo/vhdl/sistema_combinacional/sistema_combinacional.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
 Sourcing tcl script '/home/jlb/.Xilinx/Vivado/Vivado_init.tcl'
 source comparador_4b.tcl -notrace
 Command: synth_design -top comparador_4b -part xc7a35tcpg236-1
