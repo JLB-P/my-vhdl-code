@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/binToLetter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'binToLetter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/binToLetter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'binToLetter_tb'

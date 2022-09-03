@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.sim/sim_1/synth/func/xsim/comparator_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'binToLetter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/comparator_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'comparator_tb'
+ERROR: [VRFC 10-2987] 'comparator' is not compiled in library 'xil_defaultlib' [C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/comparator_tb.vhd:45]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/comparator_tb.vhd:38]
+INFO: [VRFC 10-3070] VHDL file 'C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/comparator_tb.vhd' ignored due to errors

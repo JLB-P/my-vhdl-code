@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="binToLetter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="binToLetter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="7.201 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="190"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="/binToLetter_tb/bin_data" type="array">
+      <obj_property name="ElementShortName">bin_data[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bin_data[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/binToLetter_tb/seg_7letter" type="array">
+      <obj_property name="ElementShortName">seg_7letter[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_7letter[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
