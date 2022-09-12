@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr  1 15:35:52 2022
+# Process ID: 4164
+# Current directory: C:/repo/my-vhdl-code/mealy_moore_fsm/mealy_moore_fsm.runs/synth_1
+# Command line: vivado.exe -log top_mealy_moore_fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_mealy_moore_fsm.tcl
+# Log file: C:/repo/my-vhdl-code/mealy_moore_fsm/mealy_moore_fsm.runs/synth_1/top_mealy_moore_fsm.vds
+# Journal file: C:/repo/my-vhdl-code/mealy_moore_fsm/mealy_moore_fsm.runs/synth_1\vivado.jou
+# Running On: LAPTOP-RKTT58F9, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 7952 MB
+#-----------------------------------------------------------
+source top_mealy_moore_fsm.tcl -notrace
