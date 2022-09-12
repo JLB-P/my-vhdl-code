@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep  5 14:52:47 2022
+# Process ID: 17876
+# Current directory: C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.runs/impl_1
+# Command line: vivado.exe -log arithmetic_system_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source arithmetic_system_top.tcl -notrace
+# Log file: C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.runs/impl_1/arithmetic_system_top.vdi
+# Journal file: C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.runs/impl_1\vivado.jou
+# Running On: jlb, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 7952 MB
+#-----------------------------------------------------------
+source arithmetic_system_top.tcl -notrace

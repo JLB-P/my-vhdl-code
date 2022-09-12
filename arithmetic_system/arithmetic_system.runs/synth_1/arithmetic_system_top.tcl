@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.runs/synth_1/comparator.tcl"
+  variable script "C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.runs/synth_1/arithmetic_system_top.tcl"
   variable category "vivado_synth"
 }
 
@@ -71,7 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache C:/Users/josel/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18484-jlb/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/josel/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-27892-jlb/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -89,7 +89,11 @@ set_property ip_output_repo c:/repo/my-vhdl-code/arithmetic_system/arithmetic_sy
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/comparator.vhd
+read_vhdl -library xil_defaultlib {
+  C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/comparator.vhd
+  C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/binToLetter.vhd
+  C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd
+}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -99,13 +103,16 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc {{C:/Users/josel/Dropbox/Fuera del aula/academia/teoría/diseño de sistemas digitales/material de apoyo/tarjetas fpga/digilent/BASYS 3/Basys-3-Master.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/josel/Dropbox/Fuera del aula/academia/teoría/diseño de sistemas digitales/material de apoyo/tarjetas fpga/digilent/BASYS 3/Basys-3-Master.xdc}}]
+
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/utils_1/imports/synth_1/comparator.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top comparator -part xc7a35tcpg236-1
+synth_design -top arithmetic_system_top -part xc7a35tcpg236-1
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"
@@ -115,10 +122,10 @@ if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef comparator.dcp
+write_checkpoint -force -noxdef arithmetic_system_top.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file comparator_utilization_synth.rpt -pb comparator_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file arithmetic_system_top_utilization_synth.rpt -pb arithmetic_system_top_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]
