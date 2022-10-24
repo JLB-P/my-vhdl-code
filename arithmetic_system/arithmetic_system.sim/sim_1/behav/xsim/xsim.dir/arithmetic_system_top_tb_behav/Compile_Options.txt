@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "arithmetic_system_top_tb_behav" "xil_defaultlib.arithmetic_system_top_tb" -log "elaborate.log" 

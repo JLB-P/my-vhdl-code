@@ -2,7 +2,13 @@
 2020.2
 Oct 19 2021
 03:16:22
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/arithmetic_system_top_tb.vhd,1666640820,vhdl,,,,arithmetic_system_top_tb,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/bcd_adder_tb.vhd,1665982898,vhdl,,,,bcd_adder_tb,,,,,,,,
 C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/binToLetter_tb.vhd,1661973547,vhdl,,,,bintoletter_tb,,,,,,,,
 C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/comparator_tb.vhd,1661929709,vhdl,,,,comparator_tb,,,,,,,,
-C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/binToLetter.vhd,1661971392,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/binToLetter_tb.vhd,,,bintoletter,,,,,,,,
-C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/comparator.vhd,1661929509,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/comparator_tb.vhd,,,comparator,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd,1666643096,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/arithmetic_system_top_tb.vhd,,,arithmetic_system_top,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/bcd_7seg.vhd,1665984878,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd,,,bcd_7seg,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/bcd_adder.vhd,1665984055,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd,,,bcd_adder,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/binToLetter.vhd,1666651689,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd,,,bintoletter,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/comparator.vhd,1661929509,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd,,,comparator,,,,,,,,
+C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/mux_2x1.vhd,1665984099,vhdl,C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd,,,mux_2x1,,,,,,,,

@@ -1,0 +1,7 @@
+Running: xsim.dir/arithmetic_system_top_tb_behav/xsimk.exe -simmode gui -wdb arithmetic_system_top_tb_behav.wdb -simrunnum 0 -socket 59038
+Design successfully loaded
+Design Loading Memory Usage: 7320 KB (Peak: 7320 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7820 KB (Peak: 7820 KB)
+Simulation CPU Usage: 15 ms

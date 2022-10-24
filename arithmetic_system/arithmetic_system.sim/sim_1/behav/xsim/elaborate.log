@@ -1,6 +1,6 @@
 Vivado Simulator v2021.2
 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot binToLetter_tb_behav xil_defaultlib.binToLetter_tb -log elaborate.log 
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arithmetic_system_top_tb_behav xil_defaultlib.arithmetic_system_top_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,6 +10,13 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.comparator [comparator_default]
 Compiling architecture behavioral of entity xil_defaultlib.binToLetter [bintoletter_default]
-Compiling architecture behavioral of entity xil_defaultlib.bintoletter_tb
-Built simulation snapshot binToLetter_tb_behav
+Compiling architecture behavioral of entity xil_defaultlib.bcd_adder [bcd_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.bcd_7seg [bcd_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1 [mux_2x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.arithmetic_system_top [arithmetic_system_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.arithmetic_system_top_tb
+Built simulation snapshot arithmetic_system_top_tb_behav

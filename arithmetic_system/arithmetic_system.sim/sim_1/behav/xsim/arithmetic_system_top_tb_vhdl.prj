@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../arithmetic_system.srcs/sources_1/new/comparator.vhd" \
+"../../../../arithmetic_system.srcs/sources_1/new/binToLetter.vhd" \
+"../../../../arithmetic_system.srcs/sources_1/new/bcd_adder.vhd" \
+"../../../../arithmetic_system.srcs/sources_1/new/bcd_7seg.vhd" \
+"../../../../arithmetic_system.srcs/sources_1/new/mux_2x1.vhd" \
+"../../../../arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd" \
+"../../../../arithmetic_system.srcs/sim_1/new/arithmetic_system_top_tb.vhd" \
+
+# Do not sort compile order
+nosort

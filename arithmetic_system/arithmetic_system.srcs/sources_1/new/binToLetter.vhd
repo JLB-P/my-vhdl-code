@@ -42,8 +42,8 @@ begin
 
 --segment is on when low level logic
 with bin_data select
-   seg_7letter <= "0000010" when "001",   --G
-         "1000111" when "010",   --L
-         "0000110" when "100",   --E
+   seg_7letter <= "0100000" when "001",   --G
+         "1110001" when "010",   --L
+         "0110000" when "100",   --E
          "1111111" when others;   --off
 end Behavioral;

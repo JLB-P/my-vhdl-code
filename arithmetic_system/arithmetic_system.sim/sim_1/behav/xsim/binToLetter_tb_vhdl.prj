@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../arithmetic_system.srcs/sources_1/new/binToLetter.vhd" \
-"../../../../arithmetic_system.srcs/sim_1/new/binToLetter_tb.vhd" \
-
-# Do not sort compile order
-nosort

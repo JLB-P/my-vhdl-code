@@ -71,7 +71,9 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache C:/Users/josel/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-27892-jlb/incrSyn
+set_param chipscope.maxJobs 4
+set_param synth.incrementalSynthesisCache C:/Users/josel/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18324-jlb/incrSyn
+set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -92,6 +94,9 @@ OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
   C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/comparator.vhd
   C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/binToLetter.vhd
+  C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/bcd_adder.vhd
+  C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/bcd_7seg.vhd
+  C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/mux_2x1.vhd
   C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sources_1/new/arithmetic_system_top.vhd
 }
 OPTRACE "Adding files" END { }
