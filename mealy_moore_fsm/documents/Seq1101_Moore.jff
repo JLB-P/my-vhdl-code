@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>moore</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>684.0</x>
+			<y>288.0</y>
+			<initial/>
+			<output>0</output>
+		</state>
+		<state id="1" name="q1">
+			<x>922.0</x>
+			<y>245.0</y>
+			<output>0</output>
+		</state>
+		<state id="2" name="q2">
+			<x>1061.0</x>
+			<y>239.0</y>
+			<output>0</output>
+		</state>
+		<state id="3" name="q3">
+			<x>1206.0</x>
+			<y>254.0</y>
+			<output>0</output>
+		</state>
+		<state id="4" name="q4">
+			<x>1367.0</x>
+			<y>269.0</y>
+			<output>1</output>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>0</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>2</to>
+			<controlx>1251</controlx>
+			<controly>117</controly>
+			<read>1</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>1</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>0</to>
+			<controlx>851</controlx>
+			<controly>568</controly>
+			<read>0</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>0</to>
+			<controlx>773</controlx>
+			<controly>205</controly>
+			<read>0</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<controlx>779</controlx>
+			<controly>289</controly>
+			<read>1</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>1</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>0</to>
+			<controlx>941</controlx>
+			<controly>470</controly>
+			<read>0</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>0</read>
+			<transout>0</transout>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<controlx>1286</controlx>
+			<controly>265</controly>
+			<read>1</read>
+			<transout>1</transout>
+		</transition>
+	</automaton>
+</structure>
