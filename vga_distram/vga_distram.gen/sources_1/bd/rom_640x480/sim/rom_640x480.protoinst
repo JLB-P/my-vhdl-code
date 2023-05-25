@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"rom_640x480": {
+			"proto_instances": {
+			}
+		}
+	}
+}

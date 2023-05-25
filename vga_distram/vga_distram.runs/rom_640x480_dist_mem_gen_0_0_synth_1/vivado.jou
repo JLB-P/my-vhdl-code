@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed May 24 19:43:23 2023
+# Process ID: 18696
+# Current directory: C:/repo/my-vhdl-code/vga_distram/vga_distram.runs/rom_640x480_dist_mem_gen_0_0_synth_1
+# Command line: vivado.exe -log rom_640x480_dist_mem_gen_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_640x480_dist_mem_gen_0_0.tcl
+# Log file: C:/repo/my-vhdl-code/vga_distram/vga_distram.runs/rom_640x480_dist_mem_gen_0_0_synth_1/rom_640x480_dist_mem_gen_0_0.vds
+# Journal file: C:/repo/my-vhdl-code/vga_distram/vga_distram.runs/rom_640x480_dist_mem_gen_0_0_synth_1\vivado.jou
+# Running On: jlbpacheco, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 42312 MB
+#-----------------------------------------------------------
+source rom_640x480_dist_mem_gen_0_0.tcl -notrace
