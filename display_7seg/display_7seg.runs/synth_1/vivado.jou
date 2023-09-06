@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar  1 13:10:51 2023
+# Process ID: 5048
+# Current directory: C:/repo/my-vhdl-code/display_7seg/display_7seg.runs/synth_1
+# Command line: vivado.exe -log X7segb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source X7segb.tcl
+# Log file: C:/repo/my-vhdl-code/display_7seg/display_7seg.runs/synth_1/X7segb.vds
+# Journal file: C:/repo/my-vhdl-code/display_7seg/display_7seg.runs/synth_1\vivado.jou
+# Running On: jlbpacheco, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 7952 MB
+#-----------------------------------------------------------
+source X7segb.tcl -notrace

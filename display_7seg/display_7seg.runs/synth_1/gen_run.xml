@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1677697847" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/X7segb.dcp">
+  <File Type="PA-TCL" Name="X7segb.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="X7segb_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="X7segb_reports.tcl"/>
+  <File Type="RDS-RDS" Name="X7segb.vds"/>
+  <File Type="RDS-UTIL" Name="X7segb_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="X7segb_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="X7segb.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="X7segb_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="X7segb_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/X7segb.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="X7segb"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/BASYS 3/Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josel/Dropbox/Fuera del aula/academia/teoría/diseño de sistemas digitales/material de apoyo/tarjetas fpga/digilent/BASYS 3/Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1666651533"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/X7segb.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
